@@ -1,0 +1,15 @@
+.mycard {
+    width: 18rem;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #171b1f;
+    border-radius: 16px;
+    gap: 10px;
+    padding: 10px;
+    color: white;
+}
+img {
+    width: 268px;
+}

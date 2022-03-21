@@ -10,6 +10,7 @@ body {
 
 }
 .nav-link {
+    color: white;
     border-radius: 16px;
 }
 
@@ -18,6 +19,3 @@ body {
     border-radius: 16px;
 }
 
-.nav-link:visited {
-    color: white;
-}
