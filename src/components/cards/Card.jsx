@@ -2,17 +2,17 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Card.css";
 
-function ContainerCard() {
-  return(
-    
-  )
-}
-function Card({title,image}) {
+function Card({ title, image,desc }) {
   return (
-    <div className="mycard">
-    <h3>{title}</h3>
-    <img src={image} alt="myimg" />
-  </div>
+    <div className="col g-col-4 mycard m-3">
+      <h3>{title}</h3>
+      <div className="img-div">
+        <img src={image} alt="myimg" />
+      </div>
+      <div className="card-desc">
+        <p>{desc}</p>
+      </div>
+    </div>
   );
 }
 
