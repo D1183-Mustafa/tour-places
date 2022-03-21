@@ -5,7 +5,7 @@ import "./Card.css";
 function Card({ title, image,desc }) {
   return (
     <div className="col g-col-4 mycard m-3">
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <div className="img-div">
         <img src={image} alt="myimg" />
       </div>
