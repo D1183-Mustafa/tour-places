@@ -1,0 +1,23 @@
+body {
+    background-color: #b5e2f7;
+}
+.navbar-style {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: #171b1f;
+
+}
+.nav-link {
+    border-radius: 16px;
+}
+
+.nav-link:hover {
+    background-color: #b5e2f7;
+    border-radius: 16px;
+}
+
+.nav-link:visited {
+    color: white;
+}
